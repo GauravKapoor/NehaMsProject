@@ -159,7 +159,7 @@
                                                             String sskey = rest.getString("encryptid");
                                                             byte[] encrypt = TripleDESTest.reencrypt(textforency, sskey);
                                                             String enmsg = TripleDESTest.bytetostr(encrypt);
-                                                            String url = "http://192.168.1.8:9090/sendsms";
+                                                            String url = "http://192.168.1.9:9090/sendsms";
                                                             String charset = "UTF-8";
                                                             String param1 = rest.getString("mobileno");
                                                             String param2 = enmsg;
