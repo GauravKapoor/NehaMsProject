@@ -99,7 +99,7 @@
             String textforency = "secretkey#" + data;
             byte[] encrypt = TripleDESTest.encrypt(textforency);
             String enmsg = TripleDESTest.bytetostr(encrypt);
-            String url = "http://192.168.1.8:9090/sendsms";
+            String url = "http://192.168.1.9:9090/sendsms";
             try{
                 
                 String charset = "UTF-8";
@@ -178,7 +178,7 @@
                         String textforency = "contenders#" + leaderlist.trim() + "@" + prnkeyst;
                         byte[] encrypt = TripleDESTest.reencrypt(textforency, sskey);
                         String enmsg = TripleDESTest.bytetostr(encrypt);
-                        String url = "http://192.168.1.8:9090/sendsms";
+                        String url = "http://192.168.1.9:9090/sendsms";
                         String charset = "UTF-8";
                         String param1 = phoneno;
                         String param2 = enmsg;
@@ -277,7 +277,7 @@
                         String textforency = message;
                         byte[] encrypt = TripleDESTest.reencrypt(textforency, sskey);
                         String enmsg = TripleDESTest.bytetostr(encrypt);
-                        String url = "http://192.168.1.8:9090/sendsms";
+                        String url = "http://192.168.1.9:9090/sendsms";
                         String charset = "UTF-8";
                         String param1 = phoneno;
                         String param2 = enmsg;
