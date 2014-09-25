@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ecil"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="126dp"
+        android:text="StopService"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stop"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="63dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="StartService"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/vregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="64dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Register"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</RelativeLayout>

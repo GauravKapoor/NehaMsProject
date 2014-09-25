@@ -1,0 +1,129 @@
+/*--- Mo06f ---*/
+@charset "utf-8";
+/*--- Overall style ---*/
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+body {
+	background: #FFF;
+}
+h1 {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#006381;
+}
+a {
+   text-decoration:none;   
+}
+a:link {
+	color: #FF9900;
+}
+a:visited {
+	color: #E18700;
+}
+a:hover {
+	color: #508FAE;
+}
+a:active {
+	color: #FF6600;
+}
+.container {
+    width:950px;
+    margin:0 auto;
+    text-align:left;
+    position:relative;
+}
+
+/*--- end ---*/
+
+/*--- Panel ---*/
+#panel{
+    position:absolute; 
+	left:40px; 
+	top:320px; 
+	width:190px; 	
+}
+.panBgr {
+	background-image: url(images/panel_bgr.gif);
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding: 0px 10px 0px 15px;
+	text-align:left;
+	font-size:12px;
+}
+/*--- end ---*/
+#designed {
+	position:absolute;
+	left: 0px;
+	bottom: 30px;
+	width:190px;
+	font-size:10px;
+	color: #88B7CB;
+}
+/*--- Content --*/
+.content {
+    padding: 0px 20px 0px 25px;
+
+}
+.bottom_bgr {
+	background-image: url(images/bottom_bgr.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.content_bgr {
+	background-image: url(images/content_bgr.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.left_bgr {
+	background-image: url(images/left_bgr.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.form {
+	padding-left:20px;
+	color:#004566;
+}
+
+/*--- end ---*/
+/*--- Copyrights ---*/
+.copyrights {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #00B9E8;
+	height:42px;
+	text-align:center;
+	vertical-align:top;
+	padding-top:3px;
+	background-image: url(images/bottom.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #FFF;
+}
+.copyrights a
+{
+	text-decoration: none;	       
+}
+
+.copyrights a:link
+{
+	color:#F1ECDC;
+}
+.copyrights a:visited 
+{
+	color:#D4D1C0;
+}
+.copyrights a:active {
+	color: #FF6600;
+}
+.copyrights a:hover {
+	color: #FFF;
+}
+.copyrights div {
+   padding-top:3px;  
+}
+
+/*--- End ---*/
